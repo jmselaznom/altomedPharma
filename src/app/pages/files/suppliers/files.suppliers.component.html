@@ -1,0 +1,64 @@
+<div class=" content">
+  <div class=" row">
+    <div class=" col-md-10">
+      <div class=" card">
+        <div class=" card-header">
+        </div>
+        <div class=" card-body">
+          <form>
+            <div class="row">
+              <div class=" col-md-3 pr-md-1">
+                <div class="form-group">
+                  <label for="code">Supplier Code</label>
+                  <input type="text" class="form-control" placeholder="Supplier Code" id="supplierCode" required>
+                </div>
+              </div>
+            </div>
+            <div class=" row">
+              <div class=" col-md-5 pr-md-1">
+                <div class=" form-group">
+                  <label> Supplier Name </label>
+                  <input class=" form-control" placeholder="Supplier Name" type="text" />
+                </div>
+              </div>
+            </div>
+            <div class=" row">
+              <div class=" col-md-10 pr-md-1">
+                <div class=" form-group">
+                  <label> Supplier Address </label>
+                  <input class=" form-control" placeholder="Supplier Address 1" type="text" />
+                  <input class=" form-control" placeholder="Supplier Address 2" type="text" />
+                </div>
+              </div>
+            </div>
+            <div class=" row">
+              <div class=" col-md-10 pr-md-1">
+                <div class=" form-group">
+                  <label for=""> Contact </label>
+                  <div class="row">
+                    <div class=" col"><input class=" form-control" placeholder="Telephone Number" type="text" /></div>
+                    <div class=" col"><input class=" form-control" placeholder="Cellphone Number" type="text" /></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class=" row">
+              <div class=" col-md-4 pr-md-1">
+                <div class=" form-group">
+                  <label> Fax </label>
+                  <input class=" form-control" placeholder="Fax" type="text" />
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class=" card-footer">
+          <button type="button" class="btn btn-outline-primary pull-right" ng-click="cancel()"
+            [routerLink]="['/files']">Cancel</button>
+          <button class="btn btn-primary pull-right"style="margin-right: 5px;" type="submit">Save</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
