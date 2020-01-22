@@ -8,9 +8,6 @@ import { AdminLayoutRoutes } from "./admin-layout.routing";
 import { DashboardComponent } from "../../pages/dashboard/dashboard.component";
 import { IconsComponent } from "../../pages/icons/icons.component";
 import { NotificationsComponent } from "../../pages/notifications/notifications.component";
-import { UserComponent } from "../../pages/user/user.component";
-import { TablesComponent } from "../../pages/tables/tables.component";
-import { TypographyComponent } from "../../pages/typography/typography.component";
 
 import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
 import { FilesComponent } from 'src/app/pages/files/files.component';
@@ -33,10 +30,7 @@ import { FilesProductListComponent } from 'src/app/pages/files/product-list/file
   declarations: [
     DashboardComponent,
     FilesComponent,
-    UserComponent,
-    TablesComponent,
     IconsComponent,
-    TypographyComponent,
     NotificationsComponent,
     FilesSuppliersComponent,
     FilesDoctorsComponent,
@@ -45,7 +39,6 @@ import { FilesProductListComponent } from 'src/app/pages/files/product-list/file
     FilesCustomerComponent,
     FilesProductComponent,
     FilesProductListComponent
-    // RtlComponent
   ]
 })
 export class AdminLayoutModule {}

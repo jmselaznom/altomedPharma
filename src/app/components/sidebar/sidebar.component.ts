@@ -24,31 +24,6 @@ export const ROUTES: RouteInfo[] = [
     title: "Icons",
     icon: "icon-atom",
     class: ""
-  },
-  {
-    path: "/notifications",
-    title: "Notifications",
-    icon: "icon-bell-55",
-    class: ""
-  },
-
-  {
-    path: "/user",
-    title: "User Profile",
-    icon: "icon-single-02",
-    class: ""
-  },
-  {
-    path: "/tables",
-    title: "Table List",
-    icon: "icon-puzzle-10",
-    class: ""
-  },
-  {
-    path: "/typography",
-    title: "Typography",
-    icon: "icon-align-center",
-    class: ""
   }
 ];
 

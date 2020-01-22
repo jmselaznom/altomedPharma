@@ -160,24 +160,24 @@ export class NavbarComponent implements OnInit, OnDestroy {
   }
 
   getTitle() {
-    var titlee = this.location.prepareExternalUrl(this.location.path());
-    if (titlee.charAt(0) === "#") {
-      titlee = titlee.slice(1);
-    }
+    // var titlee = this.location.prepareExternalUrl(this.location.path());
+    // if (titlee.charAt(0) === "#") {
+    //   titlee = titlee.slice(1);
+    // }
 
-    if(/\/.*\//.test(titlee)){
-      var lastSlash = titlee.lastIndexOf("/");
-      return titlee.slice(lastSlash + 1, titlee.length)
-    }else{
-      for (var item = 0; item < this.listTitles.length; item++) {
-        if (this.listTitles[item].path === titlee) {
-          return this.listTitles[item].title;
-        }
-      }
-    }
+    // if(/\/.*\//.test(titlee)){
+    //   var lastSlash = titlee.lastIndexOf("/");
+    //   return titlee.slice(lastSlash + 1, titlee.length)
+    // }else{
+    //   for (var item = 0; item < this.listTitles.length; item++) {
+    //     if (this.listTitles[item].path === titlee) {
+    //       return this.listTitles[item].title;
+    //     }
+    //   }
+    // }
 
     
-    return "Dashboard";
+    return "Inventory System";
   }
 
   open(content) {

@@ -142,21 +142,7 @@ inventory-system
 │   │       ├── map
 │   │       │   ├── map.component.html
 │   │       │   └── map.component.ts
-│   │       ├── notifications
-│   │       │   ├── notifications.component.html
-│   │       │   └── notifications.component.ts
-│   │       ├── rtl
-│   │       │   ├── rtl.component.html
-│   │       │   └── rtl.component.ts
-│   │       ├── tables
-│   │       │   ├── tables.component.html
-│   │       │   └── tables.component.ts
-│   │       ├── typography
-│   │       │   ├── typography.component.html
-│   │       │   └── typography.component.ts
-│   │       └── user
-│   │           ├── user.component.html
-│   │           └── user.component.ts
+│   │
 │   ├── assets
 │   │   ├── css
 │   │   ├── demo
