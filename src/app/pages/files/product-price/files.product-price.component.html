@@ -1,0 +1,62 @@
+<div class=" content">
+  <form>
+
+    <!-- Editable table -->
+    <div class="card">
+      <h3 class="card-header text-center font-weight-bold">Edit Product Price</h3>
+      <hr>
+      <div class="card-body">
+        <div id="table" class="table-editable">
+          <table class="table table-bordered table-responsive-md table-striped text-justify">
+            <tr>
+              <th class="text-justify">Product Code</th>
+              <th class="text-justify">Product Name</th>
+              <th class="text-justify">Unit</th>
+              <th class="text-justify">Conversion</th>
+              <th class="text-justify">Product Price</th>
+              <th class="text-center">Action</th>
+            </tr>
+            <tr *ngFor="let person of personList; let id = index">
+              <td>
+                <span contenteditable="false" (keyup)="changeValue(id, 'code', $event)"
+                  (blur)="updateList(id, 'code', $event)">{{person.code}}</span>
+              </td>
+              <td>
+                <span contenteditable="false" (keyup)="changeValue(id, 'productName', $event)"
+                  (blur)="updateList(id, 'productName', $event)">{{person.productName}}</span>
+              </td>
+              <td>
+                <span contenteditable="false" (keyup)="changeValue(id, 'unit', $event)"
+                  (blur)="updateList(id, 'unit', $event)">{{person.unit}}</span>
+              </td>
+              <td>
+                <span contenteditable="false" (keyup)="changeValue(id, 'conversion', $event)"
+                  (blur)="updateList(id, 'conversion', $event)">{{person.conversion}}</span>
+              </td>
+              <td>
+                <span contenteditable="true" (keyup)="changeValue(id, 'productPrice', $event)"
+                  (blur)="updateList(id, 'productPrice', $event)">{{person.productPrice}}</span>
+              </td>
+              <td>
+                <span class="table-save px-xl-2">
+                  <button type="button" mdbBtn color="danger" rounded="true" size="sm" class="my-0"
+                    (click)="save(id)" disabled>Save</button>
+                </span>
+                <span class="table-remove">
+                  <button type="button" mdbBtn color="danger" rounded="true" size="sm" class="my-0"
+                    (click)="remove(id)">Remove</button>
+                </span>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <!-- Editable table -->
+
+    <div class="card-footer">
+      <button type="button" class="btn btn-outline-primary pull-right" ng-click="cancel()"
+        [routerLink]="['/files']">Cancel</button>
+    </div>
+  </form>
+</div>

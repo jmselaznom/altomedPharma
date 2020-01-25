@@ -18,6 +18,7 @@ import { FilesSubAreaComponent } from 'src/app/pages/files/sub-area/files.sub-ar
 import { FilesCustomerComponent } from 'src/app/pages/files/customer/files.customer.component';
 import { FilesProductComponent } from 'src/app/pages/files/product/files.product.component';
 import { FilesProductListComponent } from 'src/app/pages/files/product-list/files.product-list.component';
+import { FilesProductPriceComponent } from 'src/app/pages/files/product-price/files.product-price.component';
 
 @NgModule({
   imports: [
@@ -38,7 +39,8 @@ import { FilesProductListComponent } from 'src/app/pages/files/product-list/file
     FilesSubAreaComponent,
     FilesCustomerComponent,
     FilesProductComponent,
-    FilesProductListComponent
+    FilesProductListComponent,
+    FilesProductPriceComponent
   ]
 })
 export class AdminLayoutModule {}
