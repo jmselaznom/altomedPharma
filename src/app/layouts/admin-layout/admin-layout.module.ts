@@ -19,6 +19,8 @@ import { FilesCustomerComponent } from 'src/app/pages/files/customer/files.custo
 import { FilesProductComponent } from 'src/app/pages/files/product/files.product.component';
 import { FilesProductListComponent } from 'src/app/pages/files/product-list/files.product-list.component';
 import { FilesProductPriceComponent } from 'src/app/pages/files/product-price/files.product-price.component';
+import { FilesSalesRepresentativeComponent } from 'src/app/pages/files/sales-representative/files.sales-representative.component';
+import { FilesVehicleEntryComponent } from 'src/app/pages/files/vehicle-entry/files.vehicle-entry.component';
 
 @NgModule({
   imports: [
@@ -40,7 +42,9 @@ import { FilesProductPriceComponent } from 'src/app/pages/files/product-price/fi
     FilesCustomerComponent,
     FilesProductComponent,
     FilesProductListComponent,
-    FilesProductPriceComponent
+    FilesProductPriceComponent,
+    FilesSalesRepresentativeComponent,
+    FilesVehicleEntryComponent,
   ]
 })
 export class AdminLayoutModule {}

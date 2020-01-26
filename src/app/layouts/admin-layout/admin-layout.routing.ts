@@ -12,6 +12,8 @@ import { FilesCustomerComponent } from 'src/app/pages/files/customer/files.custo
 import { FilesProductComponent } from 'src/app/pages/files/product/files.product.component';
 import { FilesProductListComponent } from 'src/app/pages/files/product-list/files.product-list.component';
 import { FilesProductPriceComponent } from 'src/app/pages/files/product-price/files.product-price.component';
+import { FilesSalesRepresentativeComponent } from 'src/app/pages/files/sales-representative/files.sales-representative.component';
+import { FilesVehicleEntryComponent } from 'src/app/pages/files/vehicle-entry/files.vehicle-entry.component';
 
 export const AdminLayoutRoutes: Routes = [
   { path: "dashboard", component: DashboardComponent },
@@ -26,4 +28,7 @@ export const AdminLayoutRoutes: Routes = [
   { path: "files/product", component: FilesProductComponent },
   { path: "files/product-list", component: FilesProductListComponent },
   { path: "files/product-price", component: FilesProductPriceComponent },
+  { path: "files/sales-representative", component: FilesSalesRepresentativeComponent },
+  { path: "files/vehicle-entry", component: FilesVehicleEntryComponent },
+  
 ];

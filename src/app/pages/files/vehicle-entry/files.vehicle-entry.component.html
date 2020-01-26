@@ -1,0 +1,76 @@
+<div class=" content">
+  <div class=" row">
+    <div class=" col-md-10">
+      <div class=" card">
+        <h3 class="card-header text-center font-weight-bold">New Asset Entry</h3>
+        <hr>
+        <div class=" card-body">
+          <form>
+            <div class="row">
+              <div class=" col-md-3 pr-md-1">
+                <div class="form-group">
+                  <label for="code">Asset Number</label>
+                  <input type="text" class="form-control" placeholder="Product Code" id="customerCode" required>
+                </div>
+              </div>
+            </div>
+            <div class=" row">
+              <div class=" col-md-4 pr-md-1">
+                <div class=" form-group">
+                  <label> Plate Number </label>
+                  <input class=" form-control" placeholder="Plate Number" type="text" />
+                </div>
+              </div>
+            </div>
+            <div class=" row">
+              <div class=" col-md-10 pr-md-1">
+                <div class=" form-group">
+                  <label> Vehicle Description </label>
+                  <input class=" form-control" placeholder="Vehicle Description" type="text" />
+                </div>
+              </div>
+            </div>
+            <div class=" row">
+              <div class=" col-md-4 pr-md-1">
+                <div class=" form-group">
+                  <label> Date Purchased </label>
+                  <input class=" form-control" placeholder="Date Purchased" type="date" />
+                </div>
+              </div>
+            </div>
+            <div class=" row">
+              <div class=" col-md-4 pr-md-1">
+                <div class=" form-group">
+                  <label> Amount </label>
+                  <input class=" form-control" placeholder="Amount" type="text" />
+                </div>
+              </div>
+            </div>
+            <div class=" row">
+              <div class=" col-md-6 pr-md-1">
+                <div class=" form-group">
+                  <label> Serial </label>
+                  <input class=" form-control" placeholder="Serial" type="text" />
+                </div>
+              </div>
+            </div>
+            <div class=" row">
+              <div class=" col-md-3 pr-md-1">
+                <div class=" form-group">
+                  <label> Asset Group </label>
+                  <input class=" form-control" placeholder="Serial" type="text" />
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class=" card-footer">
+          <button type="button" class="btn btn-outline-primary pull-right" ng-click="cancel()"
+            [routerLink]="['/files']">Cancel</button>
+          <button class="btn btn-primary pull-right" style="margin-right: 5px;" type="submit">Save</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
