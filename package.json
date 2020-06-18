@@ -62,7 +62,7 @@
     "@angular/platform-browser-dynamic": "8.2.14",
     "@angular/router": "8.2.14",
     "@ng-bootstrap/ng-bootstrap": "4.2.1",
-    "angular": "^1.7.9",
+    "angular": "^1.8.0",
     "angular-route": "^1.7.9",
     "angular-xeditable": "^0.10.2",
     "bootstrap": "^4.4.1",
